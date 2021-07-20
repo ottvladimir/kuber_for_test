@@ -1,0 +1,164 @@
+20:01:39	 From Maksim Andreev : +
+20:01:42	 From ildar Saidashev : +
+20:02:46	 From Maksim Andreev : Покажете, как правильно запустить блэкбокс экспортер в прометеус операторе?
+20:09:37	 From Maksim Andreev : насколько полна?
+20:09:58	 From Serge Fedonin : Туда прилетает определеннее количество заданий в единицу времени
+20:10:25	 From Mikhail : Надо иметь референсное значение
+20:10:42	 From Maksim Andreev : реф значение на каждый час?
+20:10:46	 From Maksim Andreev : =)
+20:11:04	 From Mikhail : По длине накопившихся очередей
+20:16:21	 From Aleksey Ermolaev : -
+20:16:32	 From Maksim Andreev : нет легенды
+20:18:26	 From Aleksey Ermolaev : перегруз зеленой
+20:18:26	 From Maksim Andreev : node_load1 это заранее сформированные prom ql  запросы? типа алиасов?
+20:18:53	 From ildar Saidashev : -
+20:21:56	 From Aleksey Ermolaev : swap
+20:21:56	 From Maksim Andreev : -
+20:22:05	 From Serge Fedonin : Включить swap
+20:22:44	 From Maksim Andreev : zram =)
+20:23:06	 From Maksim Andreev : ну это zram
+20:23:11	 From Maksim Andreev : есть ещё zswap
+20:23:40	 From Aleksey Ermolaev : -
+20:23:41	 From ildar Saidashev : -
+20:23:42	 From Serge Fedonin : -
+20:23:45	 From Maksim Gorbachev : -
+20:25:59	 From Aleksey Ermolaev : замедление записи
+20:26:00	 From Maksim Andreev : у пром оператора есть аллерт, которыя следит за заполняемостью
+20:29:43	 From Maksim Gorbachev : +
+20:29:43	 From Serge Fedonin : +
+20:29:43	 From Aleksey Ermolaev : +
+20:29:46	 From ildar Saidashev : +
+20:29:51	 From Mikhail : +
+20:29:54	 From Serge Fedonin : ага
+20:29:54	 From ildar Saidashev : +
+20:29:55	 From Aleksey Ermolaev : Норм
+20:30:00	 From Maksim Gorbachev : Интересно
+20:30:05	 From Pavel : Да
+20:31:40	 From Maksim Andreev : вот да
+20:31:56	 From ildar Saidashev : _
+20:31:58	 From Mikhail : -
+20:31:59	 From Serge Fedonin : -
+20:31:59	 From Aleksey Ermolaev : я нет
+20:32:01	 From Maksim Andreev : -
+20:34:24	 From Aleksey Ermolaev : Ну под тоже память потребляет
+20:34:36	 From ildar Saidashev : Может какой то системный под
+20:37:19	 From Maksim Gorbachev : +
+20:37:23	 From ildar Saidashev : +
+20:39:25	 From Aleksey Ermolaev : -
+20:39:47	 From ildar Saidashev : -
+20:39:48	 From Maksim Gorbachev : -
+20:39:50	 From Maksim Andreev : неа
+20:39:56	 From Dmitriy Boon : эксперты нарузу вытаскивать
+20:40:02	 From Serge Fedonin : Озадачивался, но пока не сделал =)
+20:40:06	 From Mikhail : А зачем это может быть нужно?
+20:40:07	 From Dmitriy Boon : добрый
+20:40:21	 From Maksim Andreev : ну был опыт прометеус с федерацией
+20:40:35	 From Maksim Andreev : алерменеджер, да отдельно был
+20:44:35	 From Maksim Andreev : Неа.
+20:44:36	 From Aleksey Ermolaev : а если несколько аписреверов
+20:44:46	 From Aleksey Ermolaev : общие метрики будут?
+20:44:59	 From Aleksey Ermolaev : понятно
+20:45:45	 From Maksim Andreev : а у etcd есть встроенный экспортер?
+20:46:25	 From Maksim Andreev : ок
+20:46:32	 From Aleksey Ermolaev : для доступа к etcd тоже сертификат нужен?
+20:46:43	 From Aleksey Ermolaev : ок
+20:47:08	 From Maksim Andreev : Ну вот сейчас etcd одельно от кластера
+20:47:12	 From Maksim Andreev : от нового кластера
+20:51:28	 From Aleksey Ermolaev : +
+20:51:30	 From Serge Fedonin : +
+20:51:43	 From ildar Saidashev : +
+20:54:50	 From Serge Fedonin : демо будут?
+20:54:52	 From Aleksey Ermolaev : бизнес метрики, надо писать разрабам
+20:54:55	 From ildar Saidashev : -
+20:57:55	 From Maksim Andreev : 
+Там вагон скрейп эрроров же
+
+20:58:46	 From Aleksey Ermolaev : сколькл товаров продано
+20:59:13	 From Aleksey Ermolaev : черная пятница ;)
+21:01:04	 From Maksim Andreev : Вот смотри, есть прометеус оператор, который хорошо всё собирает, хочется основной пром держать снаружи, так же как и графану и алертменеджер. Как правильно собираться метрики из прометеус оператора? 
+Или на то, что скрейп эрроры летят, можно этим пренебрегать?
+21:01:39	 From Maksim Andreev : Кстати, у тебя ошибка была в конфиге федерации, он так не все соберёт метрики
+а вот так все         - '{job!=""}'
+21:02:21	 From Maksim Andreev : оно собирает, но не все
+21:02:30	 From Maksim Andreev : он не успевает весь скоуп
+21:02:41	 From Maksim Andreev : метрик собрать за 15 секунд у тебя
+21:02:46	 From Maksim Andreev : я 60 секунд ставил
+21:02:57	 From Maksim Andreev : омг
+21:03:24	 From Maksim Andreev : я не знаю, это на старом проекте было, сейчас опять надо будет подобное сделать
+21:04:57	 From Dmitriy Boon : че че хранить метрики?
+21:04:58	 From Maksim Andreev : Ну можно готовыми jsonами
+21:05:03	 From Maksim Andreev : можно jsonet
+21:05:09	 From Dmitriy Boon : )
+21:05:09	 From Maksim Andreev : и генерировать
+21:05:19	 From Dmitriy Boon : в json най
+21:05:23	 From Dmitriy Boon : нах*
+21:05:31	 From Dmitriy Boon : )
+21:05:59	 From Dmitriy Boon : а это) ну да в гите у себя
+21:07:11	 From Maksim Andreev : то есть они не параметризированные? я про дашборды?
+21:08:01	 From Maksim Andreev : Вот, тоже вопрос, смотри, как правильно хранить, а главное обновлять потом прометеус оператор?
+21:08:27	 From Maksim Andreev : Изначально я его сфетчил, поправил ямл, навернул алертов и дашбордов
+21:08:36	 From Maksim Andreev : но для него выходят обновления
+21:08:41	 From Maksim Andreev : частень
+21:08:43	 From Maksim Andreev : я про чарт
+21:09:29	 From Maksim Andreev : ну хельм перезапишет мои изменения в дашбордах
+21:09:33	 From Maksim Andreev : например
+21:10:11	 From Maksim Andreev : будет, надеюсь, пример в домашке?
+21:10:26	 From Maksim Andreev : ну окей
+21:12:25	 From Aleksey Ermolaev : ytn gjrf
+21:12:28	 From Aleksey Ermolaev : нет пока
+21:12:37	 From Serge Fedonin : Slack удобнее же
+21:12:39	 From Никита Вельгин : Не надо фетчить helm чарты, без очень явной необходимости это делать. Prometheus-operator отлично через values конфигурируется. Алерты и дашборды - отчуждаемые сущности, про дашборды - grafonnetom’ом генерировать их клево, но зачастую проще закинуть готовый json
+21:14:25	 From Maksim Andreev : викторию метрикс так хаят в чате =)
+21:14:44	 From Maksim Andreev : Ну у них есть чат в телеграме свой
+21:16:16	 From Maksim Andreev : Сейчас инфлюкс хочу попробовать
+21:16:38	 From Dmitriy Boon : инфлакс кластер не бесплатный
+21:16:44	 From Maksim Andreev : Ну а надо же как-то графану нартавить на нее потом
+21:18:54	 From Maksim Andreev : Так как объединить пару прометеусов с викторией метрикс, например.
+То есть, у одного бэк указываешь и у другого?
+21:19:45	 From Maksim Andreev : .
+
+ну не важно какой бэкенд, пусть будет виктория
+то есть, у двух прометеусов указывать одну и туже тдб?
+
+
+
+21:19:50	 From Пользователь Отус : https://otus.ru/polls/6187/
+21:20:02	 From Serge Fedonin : Домашка будет?
+21:20:18	 From Maksim Andreev : ха
+21:20:20	 From Maksim Andreev : Компенсационное занятие: мониторинг и логирование
+21:20:27	 From Maksim Andreev : мониторинг и логирование =)
+21:20:32	 From Maksim Andreev : так называлась лекция
+21:20:42	 From Aleksey Ermolaev : Полезная лекция, для меня, метрики буду для себя смотреть и использовать
+21:21:00	 From Maksim Andreev : Ну скажи, да\нет?
+
+ну не важно какой бэкенд, пусть будет виктория
+то есть, у двух прометеусов указывать одну и туже тдб?
+21:21:02	 From ildar Saidashev : hardway ?
+21:22:00	 From Aleksey Ermolaev : Все пока, спасибо
+21:22:03	 From ildar Saidashev : Инструкции по настройке ) на примере
+21:22:06	 From Maksim Andreev : Я разобрался с сервис монитором, неделю не мог понять, что я делаю не так, оказывается, ему нельзя указывать порт в виде числа
+21:22:14	 From Maksim Andreev : только именованный порт в сервисе
+21:22:24	 From Никита Вельгин : О, натыкались, да :)
+21:22:59	 From Maksim Andreev : apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    release: monitoring
+  name: brite-verify-stage
+  namespace: default
+spec:
+  endpoints:
+    - path: /metrics
+      port: metrics
+  namespaceSelector:
+    matchNames:
+      - default
+  selector:
+    app.kubernetes.io/instance: brite-verify-stage
+    app.kubernetes.io/name: brite-verify-app
+    service: brite-verify-stage
+21:23:16	 From Maksim Andreev : то есть ендпоинт порта боязательно должен быть именованный
+21:23:29	 From Maksim Andreev : ну это неочевидно
+21:23:48	 From Пользователь Отус : https://otus.ru/polls/6187/
+21:23:52	 From Maksim Andreev : спасибо
+21:23:59	 From ildar Saidashev : Спасибо!

@@ -1,0 +1,9 @@
+https://www.fromdual.com/migrating-from-mysql-master-master-to-galera-replication
+
+https://habr.com/ru/post/328792/
+
+https://habr.com/ru/company/flant/blog/431500/
+
+https://github.com/operator-framework/awesome-operators
+
+https://database.guide/what-is-a-column-store-database/

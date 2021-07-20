@@ -1,0 +1,49 @@
+Openshift Online
+Крайне рекомендую этот вариант. Он очень прост и подходит для экспериментов.
+
+1. Зайдите на https://manage.openshift.com/sign_in
+2. Зарегистрируйтесь на redhat
+3. Нажмите “Add a New Plan”
+4. Выберите “Starter Plan”
+5. Дождитесь пока ваш кластер будет запровижен
+6. Зайдите в него.
+7. Кликните справа вверху на свое имя и выберите “Copy Login Comand”
+8. Нажмите “Display token” 
+9. Скопируйте команду `oc login` и выполните ее в консоле
+10. Поздравляю. Теперь вы управляете кластером
+
+Openshift Container Platform
+
+1. Скачайте openshift-install https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/
+2. Настройте реальный домен на управление Google Cloud DNS
+3. Настройте и запустите init.sh
+4. Выполните команду `export GOOGLE_CLOUD_KEYFILE_JSON=/path/to/key.json`
+5. Зарегистрируйтесь и зайдите в https://cloud.openshift.com/clusters/install#pull-secret
+6. Выберите GCP 
+7. Скопируйте “Pull Secret”, он вам понадобится
+8. Запустите `openshift-install create cluster`
+9. При необходимости обратитесь к презентации и записи вебинара
+
+Эксперименты
+
+* Создание mongodb сервера
+oc new-app --name=mongodb --template=mongodb-ephemeral \
+    -p MONGODB_USER=reddit \
+    -p MONGODB_PASSWORD=reddit \
+    -p MONGODB_DATABASE=testdb \
+    -p MONGODB_ADMIN_PASSWORD=password
+
+* Сборка и деплой приложения из кода
+oc new-app ruby:2.4~https://github.com/vitkhab/reddit \
+    -e DATABASE_URL=mongodb:27017 \
+    -e DATABASE_USER=reddit \
+    -e DATABASE_PASS=reddit \
+    -e DATABASE_NAME=testdb
+
+oc expose svc/reddit
+
+* Посмотрим манифесты
+oc get bc -o yaml
+oc get dc -o yaml
+oc get builds -o yaml
+oc get is -o yaml

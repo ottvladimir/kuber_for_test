@@ -1,0 +1,20 @@
+19:55:14	 From Serge Fedonin : Всем привет
+19:55:26	 From OTUS Online : Привет! Нас тут двое пока )
+19:55:45	 From Serge Fedonin : Огонь =))
+19:56:11	 From Serge Fedonin : +
+19:56:15	 From Petr : +
+21:17:31	 From ildar Saidashev : -
+21:17:33	 From Dmitriy Boon : )
+21:17:51	 From Dmitriy Boon : сложная тема
+21:18:41	 From Dmitriy Boon : гуй хорошо, а вот чтобы нужные трассировки коллектили. Вот тут основная тема.
+21:19:38	 From Petr : год назад пили костыль, для выявления кривых запросов - отдельно взятый запрос отрабатывал нормально, а в определенной пачке дико тупил.
+Вот Jaeger помог бы очень здорово...
+21:22:39	 From Petr : спасибо очень полезно было !
+21:23:01	 From ildar Saidashev : Есть какие нибудь типа hardway?
+21:25:20	 From Petr : отлично!
+21:25:35	 From ildar Saidashev : надо пробывать
+21:27:04	 From Serge Fedonin : спасибо
+21:27:06	 From Maksim Gorbachev : Спасибо за лекцию!
+21:27:06	 From ildar Saidashev : Спасибо!
+21:27:08	 From Petr : спасибо
+21:27:26	 From Dmitriy Boon : спасибо

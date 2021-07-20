@@ -1,0 +1,92 @@
+19:48:46	 From dbaskakov : +
+19:59:35	 From dbaskakov : +
+19:59:39	 From Sergey Mikhaylov : +
+20:00:08	 From Fedonin Serge : Всем привет
+20:08:39	 From Вася : Опять этот термин - service mesh...
+Так и не понял что это значит.
+20:08:52	 From dbaskakov : + уровень абстракции
+20:19:02	 From Maksim Andreev : Где лучше хранить чарты? в своей репе? в харборе или другом месте? в репе с приложением во всех ветках, в репе с приложением в отдельной ветке?Есть, допустим, 10 сервисов, все они ставятся своими чартами, все они требуют редис, как правильно делать, сабчартом для каждого сервиса или одни большой редис и подключаться к нему? как выбрать?Всегда ли при апгрейде надо добавлять --wait могут быть минусы?
+20:20:11	 From Maksim Andreev : ок
+20:22:59	 From dbaskakov : +
+20:23:02	 From Вася : +
+20:25:11	 From Aleksey Ermolaev : У меня тиллер в каждом неэмспейс свой с правами --clusterrole=edit в конкретном нэймспейс
+20:30:25	 From Pavel T : а в старой репе оно не обновилось? одна и таже репа
+20:30:38	 From Pavel T : ок, понял
+20:35:30	 From Maksim Andreev : А разве стоит использовать replicas. если есть hpa?
+20:36:46	 From Aleksey Ermolaev : hpa что такое?
+20:43:33	 From dbaskakov : го дальше 
+20:52:37	 From dbaskakov : так почему не сработал ?
+21:01:52	 From Aleksey Ermolaev : был push
+21:02:03	 From dbaskakov : а выбрать тип тут нельзя ?
+21:02:09	 From dbaskakov : тип репозитория
+21:02:59	 From Maksim Andreev : на прошлой неделе так же было, не было вкладки хелм чарт
+21:03:04	 From Maksim Andreev : с первого раза
+21:04:23	 From dbaskakov : вижно только экран вса
+21:04:27	 From dbaskakov : *видно
+21:04:43	 From dbaskakov : +
+21:10:54	 From Aleksey Ermolaev : -
+21:10:57	 From dbaskakov : -
+21:10:59	 From Maksim Andreev : для куба ни разу
+21:15:06	 From dbaskakov : можно демку было не убирать )
+21:21:23	 From dbaskakov : gotmpl что такое ?
+21:25:40	 From Pavel T : РКН?)
+21:26:35	 From dbaskakov : он резолвит с разных адресов и некоторые адреса закрыты
+21:26:47	 From dbaskakov : наш любимый ркн на страже
+21:30:41	 From Aleksey Ermolaev : TElegram bot отправляет алармы в телегу?
+21:34:25	 From dbaskakov : можно показать главный этот файл ?
+21:42:22	 From Вася : С каких это пор в YAML пропали коментарии?
+21:43:04	 From Maksim Andreev : генерировать дашборды графаны джейсонетом можно?
+21:43:08	 From Maksim Andreev : и стоит ли
+21:47:12	 From dbaskakov : +
+21:47:18	 From Petr : +
+21:48:41	 From Petr : почему в конце containers есть нижнее подчеркивание или плюсик ?
+21:49:08	 From Petr : ок
+21:51:55	 From Aleksey Ermolaev : А циклы есть?
+21:52:48	 From dbaskakov : видно только вс
+21:52:51	 From Petr : видно только VCode
+22:01:51	 From Maksim Andreev : Хотел спросить, есть какие-нибудь линтеры для хелм, чтобы можно было в гитлаб сиай добавить? какие рекомендации кроме ямл линтера? как проверить на валидность, что в values есть все переменные, чтоб не заливать некорректные/с опечатками в гита что за лекция в понедельник? MVP это что? там что-то описания нет---Спасибо за лекцию. Твои лекции очень интересны, два часа пролетели очень быстро и застравляют забыть о некоторых других неудачных лекциях =)
+22:02:06	 From dbaskakov : --wait
+22:02:11	 From dbaskakov : :)
+22:02:39	 From Maksim Andreev : не, она так себе
+22:02:52	 From Maksim Andreev : я думал появилось что-то эффективнее =)
+22:03:03	 From Aleksey Ermolaev : А мне понравилась :)
+22:03:25	 From Maksim Andreev : > не, она так себея про встроенную проверку
+22:03:41	 From Maksim Andreev : нет консоли
+22:03:49	 From Fedonin Serge : helm lint вроде
+22:05:20	 From Maksim Andreev : да, спасибо
+22:05:37	 From Aleksey Ermolaev : Реальный проект, это отличное решение
+22:06:18	 From Petr : спасибо за хорошую лекцию !
+22:06:22	 From Maksim Andreev : Консоль не видно
+22:06:25	 From Maksim Andreev : если что
+22:06:29	 From dbaskakov : спасибо за отличную лекцию!
+22:06:57	 From Aleksey Ermolaev : Да, спасибо всем пока
+22:07:06	 From dbaskakov : а в ci встраиваете откат через хельм при неудачном накате ?
+22:07:08	 From Fedonin Serge : А если 10 сервисов, и у всех одинаковый чарт (кроме нескольких параметров), но каждый сервис в отдельном репо - то тогда как лучше чарт хранить? Копипастить в каждый сервис?
+22:07:22	 From oleksiimolodchenko : Код ответа драй-ран возвращает?
+22:08:49	 From Fedonin Serge : ага, понятно спасибо
+22:09:06	 From Maksim Andreev : ну драйран устанавливает, а потом уделает?
+22:09:46	 From Maksim Andreev : а, ну как в шефе драй ран, тогда отличный способ валидации
+22:09:54	 From dbaskakov : запускать вим при запущенном вс ))
+22:09:58	 From oleksiimolodchenko : Echo $?
+22:10:26	 From oleksiimolodchenko : $?
+22:10:58	 From Вася : Это от самого последнего echo
+22:11:11	 From Вася : Там надо было ; вместо |
+22:12:59	 From dbaskakov : такое ощущения что он ждет до первого запщуенного пода
+22:13:08	 From Maksim Andreev : ну вообще должно было работать, там же таймаут деволтый всё равно есть, может порядок параметров, 
+22:13:20	 From Вася : ;
+22:13:43	 From Maksim Andreev : зачем пайп?
+22:14:48	 From oleksiimolodchenko : --wait if set, will wait until all Pods, PVCs, Services, and minimum number of Pods of a Deployment are in a ready state before marking the release as successful. It will wait for as long as --timeout
+22:14:55	 From Maksim Andreev : ну вейт должен дождаться 1/1 или х/х
+22:14:57	 From oleksiimolodchenko : minimum number of Pods
+22:14:58	 From Maksim Andreev : это точно
+22:15:11	 From oleksiimolodchenko : Минимум это сколько? )))
+22:16:12	 From Maksim Andreev : а ещё раз, зачем нужен после upgrade флаг --install?
+22:16:29	 From oleksiimolodchenko : “For deployments — wait may not be sufficient because it looks at ‘maxUnavailable’ which is 0 by default”
+22:16:45	 From Maksim Andreev : ааа, ну у меня имедж меняется всегда
+22:16:52	 From Maksim Andreev : теперь понятно
+22:19:38	 From Maksim Andreev : спасибо ещё раз, крутая лекция
+22:19:51	 From dbaskakov : спасибо за лекцию
+22:19:51	 From Petr : :)
+22:19:53	 From Aleksandr Zimin : спасибо! )
+22:19:54	 From Fedonin Serge : Спасибо!
+22:20:00	 From oleksiimolodchenko : 10x

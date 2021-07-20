@@ -1,0 +1,60 @@
+19:50:55	 From Igor Sablin : Приветствую всех!
+19:51:12	 From Petr : Привет
+19:51:30	 From medvedev_aleksandr : Привет всем!
+19:54:50	 From Igor Sablin : +
+19:54:53	 From Petr : +
+19:55:50	 From Petr : можно ли делать домашки не в GCP а на AWS ?
+19:56:35	 From Igor : хорошего вечера :)
+20:00:05	 From Anton : Добрый вечер
+20:02:40	 From Sergii Sinienok : Добрый!
+20:13:44	 From Dmitriy Boon : bundle это архив? 
+20:19:07	 From Dmitriy Boon : откуда он его взял?
+20:19:28	 From Alexander Akilin : Всем добрый вечер, мои дорогие! 
+20:19:53	 From Igor Sablin : Добрейший!
+20:24:21	 From sergey.volchkov : добрейший вечерочек )
+20:30:23	 From alex : Однако как много нового..
+20:30:27	 From Sergey Mikhaylov : То есть Pod это по сути тоже контейнер?
+20:31:05	 From Serge Spinoza : А как зайти в определенный контейнер в поде?
+20:32:39	 From Serge Spinoza : Спасибо
+20:34:38	 From Sergey Mikhaylov : первая схема в каких случаях используется кубером?
+20:34:47	 From Sergey Mikhaylov : да
+20:35:02	 From Sergey Mikhaylov : но есть же 2-я?
+20:36:09	 From Sergey Mikhaylov : а если я хочу 2-ю, то как ее включить?
+20:46:47	 From Sergey Mikhaylov : На всех нодах Ubuntu?
+20:48:02	 From Serge Spinoza : А почему не CoreOS? Есть преимущества?
+20:48:16	 From Igor Sablin : По какому документу проще настроить работу с cri-o? Официальная документация, статьи на медиум, что-то еще?
+20:49:16	 From Sergey Mikhaylov : Круто)
+20:50:13	 From Отус Онлайн : Docker 48 - 128
+20:52:58	 From Alexander Akilin : в контейнерд, интересно, как долго удаляться будут :) 
+20:54:09	 From Отус Онлайн : CRI-O 38 - 81
+20:54:57	 From Sergey Mikhaylov : интересно будет ли еще прирост у cri-o в родной ОС)
+20:55:09	 From Dmitriy Boon : watch -n 2
+20:55:57	 From Dmitriy Boon : $()
+20:56:12	 From Alexander Akilin : задание на дом - измерить скорость смерти :))) 
+20:57:16	 From Dmitriy Boon : да приколько глянуть
+21:01:28	 From Отус Онлайн : Containerd 39 - 100
+21:07:45	 From Alexander Akilin : крутотенюшка
+21:12:15	 From ildar Saidashev : Как в виртуозке ядро появляется?
+21:12:59	 From sergey.volchkov : а  как править конфиги для квм для каты *
+21:15:46	 From oleksiimolodchenko : Больше 100% получилось
+21:15:57	 From oleksiimolodchenko : ))
+21:16:04	 From Dmitriy Boon : тут прямо 146% 
+21:27:09	 From Igor Sablin : Gitlab знает про Kaniko - https://docs.gitlab.com/ee/ci/docker/using_kaniko.html
+21:27:15	 From Dmitriy Boon : окружение докера использует?
+21:29:23	 From Dmitriy Boon : без работы с кешем, в закрытых системах сложно.
+21:30:28	 From Alexander Akilin : всё видели :) 
+21:31:31	 From Alexander Akilin : лекция огонь! 
+21:31:48	 From alex : лекция огонь)
+21:31:51	 From alex : спасибо
+21:31:51	 From Anton : +
+21:31:51	 From Alexander Akilin : жесть жёсткая :) 
+21:31:57	 From Alexander Akilin : спасибо огромное! 
+21:32:03	 From Anton : Спасибо!
+21:32:03	 From maxim : Большое спасибо за лекцию!
+21:32:07	 From Serge Spinoza : Спасибо!
+21:32:10	 From Alexander Akilin : подман очень впечатлил :) 
+21:32:14	 From Igor Sablin : Спасибо, очень познавательно!
+21:32:16	 From ildar Saidashev : Спасибо
+21:32:21	 From Отус Онлайн : https://otus.ru/polls/4658/
+21:32:30	 From Sergey Mikhaylov : Спасибо! 
+21:32:51	 From sergey.volchkov : спасибо

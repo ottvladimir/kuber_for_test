@@ -1,0 +1,20 @@
+20:02:59	 From Sergey Mikhaylov : Привет
+20:03:00	 From Serge Fedonin : Нормально
+20:03:01	 From Anton R : Привет, норм
+20:03:01	 From Sergey Mikhaylov : норм
+20:03:06	 From Maksim Gorbachev : +
+20:03:21	 From Mikhail : +
+20:48:01	 From ildar Saidashev : де можно найти примеры конвенций?
+20:48:10	 From ildar Saidashev : ага
+20:48:55	 From Aleksey Ermolaev : Подскажите, может был оптыт по перенесу (клонированию) кластера, на другой ДЦ например?
+20:49:16	 From Aleksey Ermolaev : Чем можно склонировать?
+20:49:45	 From OTUS Онлайн-образование : https://www.conventionalcommits.org/en/v1.0.0/
+20:50:39	 From ildar Saidashev : Спс
+20:51:01	 From Никита Вельгин : Velero имеешь в виду?
+20:52:20	 From Aleksey Ermolaev : ОК, спс
+20:56:37	 From ildar Saidashev : Это прямо реальный  VS code?
+20:57:07	 From ildar Saidashev : Плагины?
+20:59:02	 From ildar Saidashev : Пока не понимаю профита )?
+21:02:19	 From ildar Saidashev : Может что то подебажем?
+21:04:20	 From ildar Saidashev : ок
+21:06:28	 From ildar Saidashev : Спасибо

@@ -1,0 +1,130 @@
+21:14:01	 From sergey.volchkov : оно живое
+21:14:05	 From Igor N : живет
+21:14:06	 From imp : +
+21:14:07	 From Igor N : ))
+21:14:09	 From Anton R : ++
+21:14:12	 From Aleksey Ermolaev : YES
+
+21:14:13	 From Mikhail : +
+21:15:08	 From sergey.volchkov : на девопсе было это приложение
+21:15:10	 From Vladimir D : Ребята с девопса точно курсе =))
+21:15:13	 From imp : aga
+21:15:21	 From Vladimir D : Серег, привет!)
+21:15:25	 From sergey.volchkov : дороу
+21:15:38	 From sergey.volchkov : чмоки в десенки
+21:15:57	 From Vladimir D : ^_^
+21:17:14	 From Vladimir D : Во е мое =)
+21:17:24	 From sergey.volchkov : шо за магия происходит ?
+21:17:33	 From Vladimir D : Уууууу Мэджик!)
+21:17:44	 From Igor N : Ах..но красиво
+21:18:19	 From sergey.volchkov : что за утилита то?
+21:18:29	 From Vladimir D : Argo CD =)
+21:18:40	 From imp : rf
+21:18:46	 From imp : как это встраивать в реальную жизнь
+21:19:15	 From sergey.volchkov : как интегрировать с тем что уже есть
+21:19:19	 From sergey.volchkov : это вообше реально ?
+21:22:57	 From sergey.volchkov : как оно  трафик роутит за счет чего ?  cni ? 
+21:25:19	 From Dmitriy Boon : только гитхаб?
+21:32:39	 From imp : а есть кейсы из практики по применению гитопса ?
+21:34:38	 From sergey.volchkov : он же вроде с тектоном работает
+21:34:46	 From sergey.volchkov : не вижу на слайде
+21:39:12	 From sergey.volchkov : надо между темами  отвечать на вопросы
+21:53:37	 From imp : были вопросы...
+21:53:42	 From sergey.volchkov : были...
+21:53:45	 From sergey.volchkov : не мегает
+21:53:50	 From sergey.volchkov : а открыть ?
+21:54:14	 From sergey.volchkov : Володя че там  уснул ?
+21:55:33	 From imp : видимо
+21:56:12	 From sergey.volchkov : ну смотрят же люди в записи  ) 
+21:56:15	 From sergey.volchkov : без вопросов
+21:58:55	 From Dmitriy Boon : флант
+21:59:07	 From imp : активно двигают , но имхо такое себе
+22:14:17	 From sergey.volchkov : чот нихуя не понять чо за 3 вей мердж )
+22:16:13	 From imp : ¯\_(ツ)_/¯
+22:16:42	 From sergey.volchkov : оО
+22:17:01	 From sergey.volchkov : (__*__)
+22:18:00	 From ildar Saidashev : https://habr.com/ru/company/flant/blog/460351
+22:20:14	 From Vladimir D : Я видимо в какой то момент отошел =(
+22:20:20	 From sergey.volchkov : вот ты
+22:20:26	 From sergey.volchkov : а м ына тебя надеялись
+22:20:41	 From Vladimir D : Ну не перебивать беж мне ¯\_(ツ)_/¯
+22:22:03	 From sergey.volchkov : там инструменты были часто написано юзат канарейку - как они ее реализуют ? через CNI ?
+22:22:25	 From Aleksey Ermolaev : Давайте демо ГО
+22:23:14	 From sergey.volchkov : а ну про истио то понятно
+22:24:08	 From sergey.volchkov : да не все понятно спасибо
+22:24:22	 From sergey.volchkov : чаечек
+22:24:30	 From Igor N : скорее
+22:24:39	 From Igor N : Можешь не успеть )))
+22:24:42	 From Igor N : Не к нам
+22:24:44	 From Anton R : ))
+22:24:58	 From Vladimir D : Теперь точно технический перерыв =)
+22:24:59	 From sergey.volchkov : там звук какойто был походу не добежал )
+22:25:19	 From Igor N : Такое занятие можно и на 2 было поделить
+22:25:31	 From Igor N : Жирно
+22:25:36	 From imp : :)
+22:25:38	 From ildar Saidashev : Ага
+22:26:04	 From ildar Saidashev : Так что в продет то пользовать?
+22:26:27	 From sergey.volchkov : все конечно же
+22:26:31	 From sergey.volchkov : все тащим в прод )
+22:26:39	 From Igor N : Я так понимаю, что пока ничего )
+22:26:56	 From Igor N : Все хорошо!
+22:27:13	 From Igor N : Именно по этому, пока в прод не надо
+22:28:21	 From sergey.volchkov : пока ничего не видно
+22:28:55	 From sergey.volchkov : а все ок
+22:28:56	 From sergey.volchkov : +
+22:29:03	 From Mikhail : +
+22:33:33	 From ildar Saidashev : -
+22:33:34	 From sergey.volchkov : ничего не видно\
+22:33:36	 From sergey.volchkov : -
+22:33:42	 From Mikhail : -
+22:33:49	 From sergey.volchkov : статус с ui висит
+22:33:55	 From ildar Saidashev : +
+22:33:56	 From sergey.volchkov : +
+22:34:03	 From sergey.volchkov : dsadadsa
+22:34:28	 From sergey.volchkov : SADasdASDasdAS
+22:34:30	 From sergey.volchkov : +
+22:34:39	 From Igor N : видно
+22:34:43	 From sergey.volchkov : DBLYJ
+22:36:48	 From sergey.volchkov : +
+22:40:00	 From ildar Saidashev : хеш может быть короче
+22:43:25	 From ildar Saidashev : ?
+22:43:57	 From ildar Saidashev : ок
+22:45:49	 From sergey.volchkov : форвард упал ?
+22:49:20	 From sergey.volchkov : 21 тег
+22:50:22	 From sergey.volchkov : а что это за фигня с реджистри ?
+22:51:27	 From sergey.volchkov : гыгы
+22:51:39	 From sergey.volchkov : нафиг этот миникуб )
+22:52:08	 From sergey.volchkov : интересно
+22:52:13	 From ildar Saidashev : норм
+22:52:16	 From Maksim Gorbachev : Интересно
+22:52:24	 From Maksim Andreev : Блин, конечно интересно\
+22:54:31	 From ildar Saidashev : А где же gitops?
+22:54:34	 From sergey.volchkov : -
+22:54:40	 From sergey.volchkov : только я нифига не вижу ?
+22:54:47	 From Maksim Andreev : зависло
+22:54:52	 From Maksim Andreev : !
+22:54:53	 From Maksim Andreev : !
+22:54:54	 From Maksim Andreev : !
+22:54:57	 From sergey.volchkov : -
+22:54:57	 From Maksim Andreev : !
+22:54:58	 From Maksim Gorbachev : +
+22:54:58	 From Mikhail : не переключилось
+22:54:59	 From sergey.volchkov : -
+22:55:00	 From sergey.volchkov : -
+22:55:35	 From sergey.volchkov : кубефорвард какойнибудь
+22:55:54	 From sergey.volchkov : миникуб гавно )
+22:55:55	 From sergey.volchkov : нафига
+22:55:58	 From sergey.volchkov : го дальше
+23:00:57	 From sergey.volchkov : +
+23:21:35	 From sergey.volchkov : отлетел
+23:21:37	 From Maksim Gorbachev : ))
+23:21:40	 From ildar Saidashev : Не слышно
+23:21:44	 From Maksim Andreev : интернет отвалился
+23:21:53	 From ildar Saidashev : Все теперь слышно
+23:27:09	 From ildar Saidashev : +
+23:27:21	 From Anton R : Спасибо
+23:27:41	 From sergey.volchkov : оч круто спасибо
+23:27:47	 From Mikhail : Спасибо
+23:30:58	 From Maksim Gorbachev : Спасибо!
+23:32:57	 From ildar Saidashev : Спасибо!
+23:33:32	 From Anton R : Спасби

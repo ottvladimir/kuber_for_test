@@ -1,0 +1,124 @@
+19:59:51	 From Aleksey Ermolaev : Всем привет
+20:00:06	 From imp : го
+20:00:19	 From Aleksey Ermolaev : НОрм
+20:03:57	 From Aleksey Ermolaev : Вижу первую страницу
+20:04:07	 From Aleksey Ermolaev : нет
+20:04:08	 From imp : не переключилась
+20:04:11	 From oleksiimolodchenko : первый
+20:04:11	 From Mikhail : Нет
+20:04:15	 From alex : gitops виден
+20:04:32	 From imp : +
+20:04:33	 From Sergey Mikhaylov : +
+20:04:34	 From Mikhail : +
+20:04:34	 From alex : +
+20:04:35	 From Petr : +
+20:04:39	 From oleksiimolodchenko : +
+20:04:39	 From Aleksey Ermolaev : Норм
+20:07:52	 From alex : обсервабилити? вкратце что это?
+20:09:03	 From alex : ok
+20:09:11	 From Aleksey Ermolaev : нет
+20:09:12	 From oleksiimolodchenko : —
+20:09:13	 From Petr : -
+20:09:13	 From imp : не переключились
+20:09:14	 From Mikhail : -
+20:09:14	 From Sergey Mikhaylov : -
+20:09:21	 From alex : слайд 4 
+20:09:24	 From imp : давайте чат открывать после определенной части
+20:09:34	 From Mikhail : -
+20:09:37	 From Petr : -
+20:09:38	 From oleksiimolodchenko : -
+20:09:40	 From imp : -
+20:09:40	 From Anton R : нет
+20:09:58	 From Aleksey Ermolaev : 6слайд
+20:10:04	 From imp : +
+20:10:05	 From alex : видно  был новый слайд
+20:10:06	 From Anton R : Стр 6
+20:10:10	 From Sergey Mikhaylov : походу фулскрин виноват
+20:12:55	 From Mikhail : 6 слайд на экране. Это норм?
+20:12:56	 From Serge Spinoza : походу опять слайд залип
+20:13:01	 From Anton R : Мв на 6
+20:13:03	 From Serge Spinoza : 6 слайд у нас
+20:13:09	 From oleksiimolodchenko : --
+20:13:16	 From imp : -
+20:13:18	 From Serge Spinoza : -
+20:13:26	 From papa : 6 стра
+20:13:30	 From imp : а лекция выложена ? :)
+20:13:42	 From imp : поехали
+20:13:47	 From Anton R : ок
+20:14:24	 From Serge Spinoza : Может рестарт зума? И новую ссылочку в слак
+20:14:36	 From Sergey Mikhaylov : попробуйте не включать фуллскрин
+20:16:02	 From Serge Spinoza : тогда говорите хотя бы по какому слайду рассказываете
+20:16:36	 From imp : +
+20:17:06	 From alex : все 94 слайда дотсупны
+20:17:16	 From alex : https://otus.ru/media/c5/f9/lection-42577-c5f972.pdf 
+20:22:04	 From Aleksey Ermolaev : Интересно ка к работает на больших кластерах
+20:27:31	 From papa : 2 гита?
+20:33:24	 From Aleksey Ermolaev : Статусы он свои гдето хранит? Flux
+20:34:57	 From Aleksey Ermolaev : jr
+20:35:13	 From Aleksey Ermolaev : ok
+20:40:30	 From alex : 22 слайд?
+20:40:52	 From Dmitriy Boon : апасна
+20:43:37	 From ildar Saidashev : Коллеги еще раз где слайд посмотреть?
+20:43:53	 From ildar Saidashev : нет
+20:44:31	 From Mikhail : Лекция в личном кабинете
+20:44:33	 From Sergey Mikhaylov : давайте к демке перейдем....
+20:44:38	 From Sergey Mikhaylov : и проверим
+20:44:42	 From ildar Saidashev : да
+20:44:43	 From alex : Попробуйте, пожалуйста, ещё раз? например отключить своё видео. Мы открыли пдф, но это не очень удобно..
+20:44:49	 From Serge Spinoza : На видео будет то что показывается в zoom
+20:45:50	 From oleksiimolodchenko : -
+20:45:53	 From Mikhail : -
+20:45:54	 From Serge Spinoza : -
+20:45:54	 From Sergey Mikhaylov : -
+20:45:56	 From imp : -
+20:46:08	 From imp : давайте уже с пдфкой продолжать
+20:46:19	 From Maksim Andreev : а просто пдф шарить?
+20:46:19	 From oleksiimolodchenko : А вверх если ?
+20:46:24	 From Sergey Mikhaylov : Если на записи слайды тоже двигаться не будут, то лекция будет полный мусор
+20:46:24	 From Serge Spinoza : Попробуйте открыть pdf
+20:46:29	 From Serge Spinoza : lf
+20:46:31	 From Serge Spinoza : да
+20:46:50	 From Serge Spinoza : Листать пробелом можно
+20:47:04	 From Sergey Mikhaylov : Норм
+20:47:05	 From Dmitriy Boon : +
+20:47:06	 From Serge Spinoza : во норм теперь
+20:47:12	 From Aleksey Ermolaev : Работает
+20:48:55	 From Aleksey Ermolaev : Вэбку включи
+20:53:10	 From Dmitriy Boon : а как описывается паплайн?
+20:53:15	 From Dmitriy Boon : ямлики какие то?
+20:57:33	 From Serge Spinoza : +
+20:57:33	 From Dmitriy Boon : +
+20:57:34	 From Aleksey Ermolaev : Видна
+20:57:34	 From Mikhail : +
+20:57:34	 From Dmitry : +
+20:57:34	 From oleksiimolodchenko : +
+20:57:38	 From Igor N : +
+20:57:40	 From Aleksey Ermolaev : НОрм
+20:59:27	 From Aleksey Ermolaev : что то не видать
+20:59:46	 From Aleksey Ermolaev : консоль  не видно
+20:59:53	 From Mikhail : -
+20:59:56	 From Dmitriy Boon : -
+20:59:59	 From Dmitriy Boon : ---
+21:00:00	 From Serge Spinoza : Показывает vscode
+21:00:29	 From Igor N : А мышку видно
+21:00:50	 From Igor N : Ща видно
+21:01:16	 From Mikhail : +
+21:01:52	 From Sergey Mikhaylov : Все плохо....
+21:01:55	 From Dmitriy Boon : tt
+21:01:55	 From imp : -
+21:01:59	 From Serge Spinoza : -
+21:02:09	 From Igor N : Давайте кто-то голос включит и будет говорить, если фриз
+21:02:19	 From Igor N : И дублировать чат
+21:02:38	 From Igor N : не
+21:04:00	 From imp : +
+21:05:03	 From Aleksey Ermolaev : нет
+21:05:03	 From imp : -
+21:05:06	 From oleksiimolodchenko : —
+21:05:11	 From Павел Козлов : нет
+21:05:13	 From imp : -----
+21:05:22	 From Igor N : Мышку видно
+21:05:27	 From Anton R : Перезапускай zoom
+21:05:33	 From Sergey Mikhaylov : Это нужно было сделать раньше
+21:05:34	 From Igor N : +++
+21:05:39	 From Serge Spinoza : Где ссылка будет?
+21:05:55	 From Igor N : Сегодня интересно очень

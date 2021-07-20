@@ -1,0 +1,113 @@
+19:51:50	 From oleksiimolodchenko : у всех кол-во дз в лк уменьшилось с 16 до 13?
+19:52:02	 From Sergey Mikhaylov : ага
+19:54:46	 From Sergey Mikhaylov : где про канареечные поды почитать?
+19:55:08	 From Sergey Mikhaylov : да
+19:55:31	 From Dmitriy Boon : развернуть на баре метал практику бы)
+19:55:34	 From oleksiimolodchenko : +
+19:55:36	 From Dmitriy Boon : все вери вель
+19:55:44	 From oleksiimolodchenko : запись
+19:55:46	 From Sergey Mikhaylov : хорошо видно и слышно
+19:55:55	 From oleksiimolodchenko : Почему третий?
+19:56:01	 From Dmitriy Boon : неее
+19:56:04	 From oleksiimolodchenko : как делятся модули?
+19:56:10	 From Dmitriy Boon : уставновка на баре метал
+19:56:20	 From oleksiimolodchenko : ))
+19:56:24	 From oleksiimolodchenko : понятно
+19:56:34	 From Dmitriy Boon : работа то понятно, варианты установки.
+19:56:58	 From Dmitriy Boon : практика будет?
+19:57:41	 From Dmitriy Boon : у меня норм только на оракле взлетело
+19:57:56	 From Dmitriy Boon : на убунте что то coredns не взлетает..
+19:58:34	 From Dmitriy Boon : ага какой
+19:58:39	 From Dmitriy Boon : любой?
+19:58:55	 From Sergey Mikhaylov : почему у core-dns selector name kube-dns?
+19:59:40	 From Anton : Добрый вечер!
+20:09:03	 From alex : сколько примерно "весит" типичный etcd? 
+20:11:35	 From Dmitriy Boon : а тушить нуже все ectd?
+20:11:40	 From Dmitriy Boon : нужно
+20:12:39	 From Dmitriy Boon : если у нас 3 ectd, как восстановить? в мастер вкатывать?
+20:14:42	 From Serge Fedonin : мы будем на практике это пробовать?
+20:15:17	 From Serge Fedonin : Спасибо
+20:16:50	 From Dmitriy Boon : а что там может сломаться?
+20:17:10	 From Dmitriy Boon : в каких случая понадобится бекап?
+20:17:22	 From Dmitriy Boon : ну кроме того что сами сломали
+20:17:46	 From Yury Ignatov : обновление версии, например
+20:18:14	 From Maksim Andreev : как часто?
+20:20:32	 From Dmitriy Boon : это кол-во ectd ? или вместе с воркерами?
+20:21:10	 From Yury Ignatov : Дмитрий, табличка только про ноды etcd, без учета воркеров
+20:21:22	 From Dmitriy Boon : кк
+20:22:16	 From alex : в голове заиграла песня "Валера, валерааа.."
+20:22:40	 From ildar Saidashev : платная?
+20:22:53	 From Serge Fedonin : в GCE получается создаются только воркеры?
+20:23:16	 From Serge Fedonin : Понятно
+20:23:58	 From alex : etc=maser?
+20:24:19	 From Igor Sablin : Странно… В ДЗ предлагается создать кластер в GCE и сделать восстановление etcd. Но, если там к etcd нет доступа… Но как, Холмс?! :)
+20:24:22	 From Aleksey : или dedicated?
+20:25:07	 From Maksim Andreev : а хайлоад это сколько примерно?
+20:25:27	 From Igor Sablin : Ок, понял - спасибо!
+20:25:56	 From ildar Saidashev : Как понять что не хватает производительности etcd?
+20:26:36	 From alex : 0.5 памяти забирает скедулер на gce? 
+явно напрашивается 8Гб, а тут 7.5 
+20:27:19	 From alex : ок
+20:27:21	 From Maksim Andreev : экономия
+20:28:15	 From Вася : Т.е больше 5 не нужно?
+20:35:47	 From alex : не совсем понятно, а что именно плохого будет в том, что будет большой латенси для etcd? медленнее создаются поды? 
+20:38:54	 From Maksim Andreev : а вот если не дедикейтед кластер етисиди, то где, можно на мастерах кубера запускать?
+20:44:09	 From Вася : Почему именно Calico?
+20:47:17	 From alex : коннекш стринг это что? что-то пропустил.. )
+20:47:52	 From alex : спасибо
+20:52:16	 From Dmitry : а если etcd запущен через hyperkube как его правильно остановить и запустить, kill pid?
+20:52:56	 From Кузовлев Евгений : OpenShift?
+20:53:00	 From Dmitry : кубспрей, но возможно я ошибаюсь
+20:53:02	 From Dmitry : 1.10
+20:53:58	 From Serge Fedonin : Если он запускается в поде, как его стопнуть?
+20:55:24	 From Serge Fedonin : если мастеров несколько, везде надо перенести?
+20:55:52	 From Serge Fedonin : =) спасибо
+20:56:30	 From Alex : Всегда static? В доке k8s написано, что статик поды могут убрать. Можно ли использовать daemon set?
+21:06:01	 From alex : а можно как то вывести список обьектов с колонкой версии апи?
+21:11:40	 From Dmitriy Boon : +
+21:11:41	 From Serge Fedonin : +
+21:11:42	 From Anton : +
+21:11:42	 From Кузовлев Евгений : +
+21:11:43	 From Sergii Sinienok : +
+21:11:48	 From Igor Sablin : Чуток больше шрифт разве что
+21:12:54	 From Igor Sablin : А авторизация в Headers?
+21:14:16	 From oleksiimolodchenko : покажите хидерс
+21:14:58	 From Igor Sablin : А там аж 7 штук чего-то :)
+21:15:06	 From Igor Sablin : В хеадерс
+21:15:10	 From oleksiimolodchenko : выше
+21:22:09	 From Владимир : копирования/пермещения нет?
+21:22:27	 From Владимир : createdelete
+21:22:52	 From Владимир : эвенты
+21:24:20	 From Владимир : не суть... давайте дальше
+21:24:45	 From alex : сплитбреейн
+21:29:40	 From Владимир : по сути своего вопроса - я оказывается про дескедулер спрашивал :-)
+21:43:37	 From Dmitriy Boon : +
+21:43:38	 From Кузовлев Евгений : +
+21:43:41	 From Sergii Sinienok : +
+21:52:11	 From alex : ваще какая-то жесть пошла.. надо пересматривать вдумчиво
+21:52:42	 From Dmitriy Boon : да отлично!
+21:52:45	 From dbaskakov : все прозрачно ж :)
+21:53:41	 From Владимир : хардвей давно уже не обновлялся вроде.... он вообще актуален?
+21:54:05	 From Serge Fedonin : Данный ключ в ручную указывается/
+21:54:06	 From Serge Fedonin : ?
+21:54:12	 From Serge Fedonin : Ок
+21:55:07	 From Serge Fedonin : с какой версии k8s этот ключ появился?
+21:55:18	 From Serge Fedonin : Ага, спасибо
+21:58:56	 From alexey : А если у нас 2 связных сервиса, 4 реплики каждого. Как-то можно их попарно распределять на одни и те же ноды, что получить минимум латенси?
+22:03:23	 From Maksim Andreev : Очень крутая лекция! Спасибо
+22:03:34	 From dbaskakov : отличная лекция! Спасибо!
+22:03:39	 From Dmitriy Boon : Согласен, очень крутая.
+22:03:42	 From Кузовлев Евгений : Спасибо! Маст хэв читать документацию)
+22:03:46	 From Dmitriy Boon : Лекция, огонь!
+22:03:48	 From alexey : Спасибо
+22:03:51	 From alex : лекция бомба! вопросы потом в слаке задам, сейчас сложно..
+22:03:54	 From Sergey Mikhaylov : Спасибо за отличную лекцию!
+22:03:54	 From oleksiimolodchenko : Спасибо
+22:03:55	 From Serge Fedonin : как раскидать поды одного сервиса по разным нодам (принудительно)
+22:03:58	 From Dmitriy Boon : еще раз смотреть нужно...
+22:04:09	 From Владимир : спасибо!
+22:04:10	 From Serge Fedonin : Спасибо
+22:04:15	 From Dmitry : Спасибо
+22:04:17	 From ildar Saidashev : Спасибо!
+22:04:19	 From Maksim Gorbachev : Спасибо за лекцию!
+22:04:20	 From Aleksey : Спасибо! 

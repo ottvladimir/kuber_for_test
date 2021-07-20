@@ -1,0 +1,167 @@
+19:47:47	 From Serge Spinoza : Всем привет!
+19:48:07	 From Serge Spinoza : +
+19:48:16	 From Serge Spinoza : отлично
+19:51:16	 From Sergey Mikhaylov : Видно
+19:51:30	 From Sergey Mikhaylov : Отцентровать бы еще
+19:51:47	 From Sergey Mikhaylov : Ниже
+19:51:52	 From Serge Spinoza : Вниз
+19:53:46	 From Serge Spinoza : так тоже норм
+19:55:33	 From Serge Spinoza : в кабардино балкарии валокордин из болгарии =))
+19:55:55	 From Serge Spinoza : =)
+19:56:41	 From Sergey Mikhaylov : Не)
+19:56:43	 From oleksiimolodchenko : Nope
+19:56:44	 From Serge Spinoza : Нет, не слышно
+19:57:40	 From Serge Spinoza : +
+20:00:35	 From dbaskakov : +
+20:00:35	 From Serge Spinoza : +
+20:00:41	 From Sergey Mikhaylov : +
+20:00:43	 From maxim : +
+20:02:05	 From Вася : Разве таймштамп не чать метадаты?
+20:10:21	 From Serge Spinoza : Это ротация логов в самом эластике?
+20:10:46	 From sav : а ссылку текстом где взять?
+20:10:48	 From Serge Spinoza : Сам эластик уже сам умеет делать ротацию
+20:11:18	 From sav : а ссылку текстом где взять? 
+20:12:57	 From Онлайн Otus  :  https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html
+20:13:02	 From Alexey Soroko : Спасибо
+20:13:12	 From dbaskakov : так в слайдах потом будет же
+20:13:49	 From Alexey Soroko : ну будет... а щас вот нет пдф-а в лекции (
+20:13:53	 From oleksiimolodchenko : Лекция по эластику или по логированию в кубере?
+20:14:40	 From Alexey Soroko : how-to )
+20:15:14	 From oleksiimolodchenko : -
+20:15:16	 From maxim : +
+20:15:20	 From alex : +
+20:15:23	 From dbaskakov : +
+20:15:24	 From Serge Spinoza : Видно что выделено, но сам текст не виден
+20:15:37	 From alex : просто не выделяй)
+20:21:07	 From Serge Spinoza : На всякий ссылка на ротацию индексов - https://www.elastic.co/guide/en/kibana/current/creating-index-lifecycle-policies.html
+20:22:52	 From Онлайн Otus  : https://www.elastic.co/guide/en/elasticsearch/reference/6.2/modules-discovery-zen.html
+20:24:15	 From oleksiimolodchenko : Как это связано с кубером? )))
+20:25:24	 From oleksiimolodchenko : что?
+20:25:39	 From oleksiimolodchenko : Это лекция про Elk?
+20:26:53	 From Alexey Soroko : Тов. Преподаватель, прошу ответить, зачем нам ЕЛК щас?
+20:27:12	 From oleksiimolodchenko : Чет фейлы с лекциями участились )))
+20:27:14	 From Alexey Soroko : технология елк, имел в виду
+20:28:01	 From Maksim Andreev : а что? всё в грейлог пихать?
+20:28:09	 From oleksiimolodchenko : это тонкости архитектуры
+20:28:16	 From Никита Вельгин : Курс не только про кубер, но и про инфраструктуру платформу и экосистему вокруг нее :) А логирование в общем, и ELK в частности - неотъемлемая часть платформы как таковой. Умение эксплуатировать эластик - очень полезный навык
+20:28:19	 From Alexey Soroko : в кликхаут тада, когда более 10тб )
+20:28:26	 From Alexey Soroko : кликхаус
+20:28:51	 From Alexey Soroko : да, можно опустить технологию кластеризации и шардирования елк ?
+20:28:51	 From Maksim Andreev : Я вообще на курс записался ради лучших практик по логированию и мониторингу =)
+20:28:52	 From oleksiimolodchenko : Основное нужно знать что есть шипер эластик и кибана и все вокруг них
+20:29:02	 From Alexey Soroko : +
+20:29:02	 From Maksim Andreev : с мониторингом не сложилось, правда
+20:29:03	 From Maksim Andreev : +
+20:29:09	 From oleksiimolodchenko : а не 20 мин мусолить как мастер выбирается
+20:29:32	 From Alexey Soroko : лучше про локи нам расскажите ))
+20:29:41	 From Alexey Soroko : побольше чем про елк )
+20:29:54	 From Serge Spinoza : Расскажите еще тогда про выбор количества шард, это тоже важно чтобы эластик не тормозил
+20:31:00	 From Alexey Soroko : ох
+20:31:16	 From Alexey Soroko : опять елк.... пойду курить.... 
+20:33:28	 From Serge Spinoza : Из курса ELK - Максимальное рекомендуемое количество шард (всех индексов) на каждую ноду кластера рассчитывается по формуле: 20 * 1/2 ОЗУ (например, если у вас 16 ГБ ОЗУ на ноде кластера - то максимальное рекомендуемое количество шард на ноду будет равняться 20 * 8 = 160 шард).
+20:43:01	 From dbaskakov : create
+20:43:03	 From dbaskakov : update
+20:43:04	 From oleksiimolodchenko : +
+20:43:04	 From alex : креате реад апдейт и тп
+20:43:04	 From dbaskakov : delete
+20:43:08	 From Maksim Andreev : -
+20:59:40	 From Онлайн Otus  : https://www.elastic.co/guide/en/logstash/7.3/input-plugins.html
+21:04:21	 From Онлайн Otus  : https://www.elastic.co/guide/en/logstash/7.3/output-plugins.html
+21:06:19	 From Онлайн Otus  : logstash-%(+YYYY.MM.dd)
+21:09:19	 From Serge Spinoza : Эластик сам тоже умеет алерты
+21:12:31	 From Онлайн Otus  : https://www.elastic.co/guide/en/logstash/7.3/filter-plugins.html
+21:20:17	 From Онлайн Otus  : /var/lib/filebeat/registry
+21:21:32	 From Serge Spinoza : Файлбитами и логстешами можно еще централизовано управлять из эластика (но это платная функция)
+21:23:59	 From Serge Spinoza : +
+21:24:00	 From maxim : +
+21:24:02	 From dbaskakov : +
+21:24:05	 From alex : пайчарм видно
+21:25:49	 From dbaskakov : все ок
+21:25:59	 From alex : конслоль аутпут мелкая, но видно
+21:29:53	 From Maksim Andreev : а где эти инклю и эксклуд?
+21:30:04	 From Maksim Andreev : =)
+21:30:34	 From Maksim Andreev : д
+21:30:37	 From alex : +
+21:32:48	 From Онлайн Otus  : filebeat-YYYY.MM.DD 
+21:33:55	 From Онлайн Otus  : https://www.elastic.co/guide/en/logstash/7.3/codec-plugins.html
+21:33:56	 From alex : все равно будем ещё раз смотреть их. много информации
+21:40:55	 From Онлайн Otus  : https://github.com/logstash-plugins/logstash-patterns-core/tree/master/patterns
+21:40:59	 From oleksiimolodchenko : Коллеги, лекция называется «Сервисы централизованного логирования для компонентов Kubernetes и приложений.» а мы второй час слушаем лекцию про экосистему ELK
+21:41:26	 From Alexey Soroko : да пипец
+21:41:38	 From dbaskakov : интересно сколько слайдов из 128 будет посвящено куберу ))
+21:42:05	 From Alexey Soroko : я хочу услышать про промет+локи а так же применительно к логи промтаил или файлбит или сислог - практики в общем
+21:42:10	 From Maksim Andreev : Безусловно
+21:42:36	 From Онлайн Otus  : https://grokdebug.herokuapp.com/patterns#
+21:43:21	 From Serge Spinoza : в кибане есть штатный отладчик гроков
+21:44:20	 From Serge Spinoza : Kibana -> dev tools -> Grok Debugger
+21:44:21	 From alex : а я вот не могу повыделываться "хорошая/полезная лекция сегодня или нет". я все равно начинающий инженер. 
+21:44:21	 From Serge Spinoza : +
+21:44:23	 From alex : видно + 
+21:48:22	 From oleksiimolodchenko : Цель лекции - добить все 218 слайдов ))
+21:48:27	 From oleksiimolodchenko : 128;
+21:50:42	 From dbaskakov : реализовать на aws ?
+21:50:54	 From Serge Spinoza : Kops это что?
+21:51:49	 From Онлайн Otus  : https://github.com/kubernetes/kops
+21:54:28	 From Maksim Andreev : https://www.dropbox.com/s/jr5pcic0x6outvn/Elasticsearch%2C%20Kibana%2C%20Logstash%20%D0%B8%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%5B%D0%A8%D1%83%D0%BA%D0%BB%D0%B0%2C%20%D0%9A%D1%83%D0%BC%D0%B0%D1%80%5DeBook.pdf?dl=0
+21:54:39	 From dbaskakov : letsencrypt ?
+21:54:39	 From Вася : Letsencrypt
+21:57:13	 From alex : +
+21:57:14	 From maxim : +
+21:57:14	 From Serge Spinoza : +
+21:57:17	 From Anton R : +
+22:00:51	 From alex : а что за хеш в конце?
+22:01:19	 From Alexey Soroko : ох
+22:01:30	 From oleksiimolodchenko : ))) хорошая подготовка )))
+22:01:35	 From Alexey Soroko : есть инструменты!
+22:02:07	 From Онлайн Otus  : https://grafana.github.io/loki/charts/
+22:04:00	 From dbaskakov : так как лучше ставить эластик в кубере ? каким образом хранить эти данные ?
+22:04:38	 From Maksim Andreev : Вот судя по своему опыту, я бы не стал ставить эластик внутрь кластера, если кластер не очень большой
+22:05:06	 From Maksim Andreev : порой залетают такие объемы, что висят все ноды эластика
+22:05:35	 From Serge Spinoza : Соглашусь, эластик лучше держать отдельно
+22:07:59	 From Maksim Andreev : Да, не, лекция полезна, так как, когда столкнешься, будет где найти информацию
+22:08:25	 From Serge Spinoza : Домашка будет?
+22:08:31	 From Alexey Soroko : по елк полезна. по логированию сервисов - инфа крайне поверхностна. жалЪ
+22:09:01	 From alex : мне лекция понравилась. Спасибо, Александр.
+22:09:20	 From Serge Spinoza : По логированию сервисов есть курс от самого эластика за 3000 евро =))
+22:10:00	 From Alex : спасибо за лекцию! пригодится точно
+22:10:09	 From Serge Spinoza : Спасибо!
+22:10:20	 From Maksim Andreev : Мне лень писать отзыв к хорошим лекциям =)
+Но про курс целиком, разве нельзя было его построить целиком, как девопс
+Почему нельзя было взять приложение и с каждой лекцией наворачивать на него
+22:10:26	 From Maksim Andreev : а лекция отличная
+22:11:13	 From oleksiimolodchenko : Дам можно сокс шоп взять
+22:11:19	 From Maksim Andreev : Но блин, тут большинство ожидало именно такой подход
+22:11:22	 From oleksiimolodchenko : вопрос же был про другое
+22:11:27	 From Никита Вельгин : Уже взяли, только для следующей лекции))
+22:11:59	 From Никита Вельгин : Привет)
+22:12:04	 From oleksiimolodchenko : Никита, суть темы в лекции не раскрыта
+22:12:11	 From oleksiimolodchenko : чтобы ты там ранее не говорил
+22:13:07	 From oleksiimolodchenko : Я еще раз повторюсь, лекция была про ELK
+22:13:33	 From Serge Spinoza : из того что не рассказали - как экспортировать логи из контейнеров (основные подходы) например
+22:13:42	 From Serge Spinoza : В самом кубере
+22:13:55	 From Serge Spinoza : т.е. Это какой то sidecar контейнер должен был
+22:14:19	 From Serge Spinoza : Общий волюм с логами (если логи идут в файлы )
+22:14:21	 From Serge Spinoza : и т.д.
+22:14:30	 From oleksiimolodchenko : ну да, даже слайда про паттерны шипинга не было
+22:15:51	 From Serge Spinoza : Решение проблемы когда  штатная очередь логстеша или файлбита не успевает обрабатывать логи (автоскейл какой нить например или сервис очередей, и как еще это решается)
+22:15:59	 From Alex : +
+22:16:02	 From Serge Spinoza : +
+22:16:39	 From Serge Spinoza : Файл бит тоже можно
+22:16:50	 From Serge Spinoza : я про другое, сами подходы
+22:17:06	 From Serge Spinoza : Код из приложений и nginx на фронте
+22:17:21	 From Alex : что делать, если сам еластик не справляется с потоком данных?
+22:17:58	 From Serge Spinoza : по ситуации - оптимизировать количество шард, + мощности самих нод
+22:18:28	 From Alex : понял. спс. про кафку тоже хорошая идея
+22:19:00	 From alex : оффтоп. а удобно ли одновременно обе панели: сбоку слева и док снизу?
+22:19:27	 From alex : у тебя же две панели на скрине)
+22:19:32	 From alex : удобно ли это?
+22:19:45	 From Онлайн Otus  : https://extensions.gnome.org/
+22:19:56	 From Serge Spinoza : - вы любите кафку?
+- да, офобенно грефневую =)
+22:21:39	 From Онлайн Otus  : https://www.youtube.com/watch?v=6t6e6yfGtrk
+22:21:51	 From alex : думаю вас пора отпустить 
+22:21:56	 From Serge Spinoza : Спасибо!
+22:21:59	 From alex : спасибо за лекцию. мне правда понравилось
+22:21:59	 From maxim : Спасибо!
+22:22:05	 From Alex : спасибо)
+22:22:08	 From Anton R : Спасибо

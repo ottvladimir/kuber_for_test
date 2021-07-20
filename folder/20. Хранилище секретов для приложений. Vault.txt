@@ -1,0 +1,3 @@
+https://sites.google.com/site/mrxpalmeiras/vault-cheat-sheet
+https://www.vaultproject.io/docs/
+https://blog.digitalocean.com/vault-and-kubernetes/
